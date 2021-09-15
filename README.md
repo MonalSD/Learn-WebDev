@@ -1,2 +1,2 @@
 # Learn HTML
- Attempt to Learn WEB-Development
+ Attempt to Learn HTML
