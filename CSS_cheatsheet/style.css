@@ -117,10 +117,12 @@ a:active{
 }
 .categories li
 {
+
     padding-bottom:6px;
     border-bottom:dotted 1px rgb(250, 247, 247);
     list-style-image: url('../CSS_cheatsheet/check.png');
-     ;
+    list-style-position: outside;
+    
 }
 .myform{
     padding:20px;
@@ -164,11 +166,53 @@ a:active{
     color:rgb(241, 245, 241);
     padding: 15px;
     box-sizing:border-box;
-
 }
 .pbox{
     width:800px;
     height: 500px;
     border:1px solid white;
     margin-top:30px;
+    position:relative;
+    color:white;
+    background-image: url('../CSS_cheatsheet/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-position: center top;
 }
+.pbox h1{
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+.pbox h2{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+}
+
+.fixme{
+   position: fixed;
+   top:400px;  
+}
+
+.mylist{
+    color:white;
+}
+.mylist li:first-child{
+    background: green;
+}
+
+.mylist li:last-child{
+    background: blue;
+}
+
+.mylist li:nth-child(5){
+    background: red;
+}
+.mylist li:nth-child(even){
+    background: rgb(231, 177, 177);
+}
+.mylist li:nth-child(odd){
+    background: maroon;
+}
+

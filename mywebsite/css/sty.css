@@ -1,0 +1,82 @@
+body
+{
+    background-color:lavenderblush;
+    font: normal 16px Arial,Helvetica,sans-serif;
+    line-height: 1.6em;
+    margin:0;
+    color:rgb(22, 31, 27);
+}
+.container
+{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+#main-header{
+    background-color:rgb(186, 186, 224);
+    color:lightcyan;
+    position: relative;
+    text-align: left;
+}
+#navbar{
+    background-color:lightgray;
+    color:tomato;
+}
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+#navbar li{
+    display:inline;
+}
+#navbar a{
+    color:rgb(201, 152, 159);
+    text-decoration:none;
+    font-size:18px;
+    padding-right:20px;
+}
+#showcase{
+    background-image:url('../images/bkgro.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    min-height: 300px;  
+    margin-bottom: 40px;
+    text-align:center;
+}
+#showcase h1{
+    color:rgb(155, 117, 123);
+    font-size:35px;
+    line-height:1.6em;
+    padding-top:10px;
+}
+#main{
+    float:left;
+    width:70%;
+    padding: 0 30px;
+    box-sizing:border-box;
+}
+#sidebar{
+    float:right;
+    width:30%;
+    background:rgb(241, 241, 247);
+    padding:10px;
+    box-sizing:border-box;
+}
+#main-footer{
+    background:rgb(227, 227, 241);
+    color:rgb(253, 253, 189);
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+@media(max-width:900px)
+{
+   #main{
+       width:100%;
+       float:none;
+   }
+   #sidebar{
+    width:100%;
+    float:none;
+   }
+}
